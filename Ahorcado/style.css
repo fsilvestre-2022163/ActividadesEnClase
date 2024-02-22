@@ -1,0 +1,36 @@
+button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    height: 55px;
+    width: 50px;
+}
+
+button:hover{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aquamarine;
+    font-size: 25px;
+    height: 60px;
+    width: 55px;
+}
+button:before{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    font-size: 25px;
+    height: 60px;
+    width: 55px;
+}
+#boton1{
+    width: 150px;
+    height: 50px;
+}
+
+#imagen{
+    height: 450px;
+    width: 425px;
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+body{
+    background-image: url(9PS2.gif);
+}

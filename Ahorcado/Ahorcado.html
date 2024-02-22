@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Ahorcado</title>
+  <link rel="stylesheet" href="Estilos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Francois+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <img src="Header.gif" alt="" width="100%" height="1100px">
+  <img src="Fondo.gif" alt=""
+    style="width: 100vw; height: 100vh; object-fit: cover; position: fixed; top: 0; left: 0; z-index: -1">
+  <header>
+  </header>
+  <div class="container" style="display: flex;clear: both;">
+    <canvas id="canvas" width="200" height="400" style="margin-right: 200px;"></canvas>
+
+    <div>
+      <center>
+        <p
+          style="color: white; font-family: 'Concert One', cursive; font-family: 'Francois One', sans-serif; font-size: 100px;">
+          Palabra a
+          adivinar:</p>
+      </center>
+      <center>
+        <p id="palabra" style="color: white; font-size: 90px;"></p>
+      </center>
+      <center>
+        <p
+          style="color: white; font-family: 'Concert One', cursive; font-family: 'Francois One', sans-serif;">
+          Intentos
+          restantes: <span id="oportunidades">7</span></p>
+      </center>
+      <center>
+        <p id="mensaje" style="color: white;"></p>
+      </center>
+      <div id="letras">
+      </div>
+      <div id="letras-usadas"
+        style="margin-top: 20px;text-align: center; color: white; font-family: 'Concert One', cursive; font-family: 'Francois One', sans-serif;font-size: 50px;">
+        Letras utilizadas: <span id="letras-usadas-text"></span>
+      </div>
+    </div>
+  </div>
+  <script src="Script.js"></script>
+</body>
+
+</html>
